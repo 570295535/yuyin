@@ -11,7 +11,7 @@
 
 <p>肖施主说：<strong id="latest-word"></strong></p>
 <script src="./2.js"></script>
-<!--每隔30秒重新加载一次js开始-->
+<!--每隔21秒重新加载一次js开始-->
 <script>
 function mm()
 {
@@ -21,7 +21,7 @@ function mm()
     script.src = "./2.js?temp="+ Math.random();  //缓存问题
     document.getElementsByTagName("HEAD")[0].appendChild(script);
 }
-setInterval("mm()", 24000); //30秒运行一次</script>
+setInterval("mm()", 21000); //21秒运行一次</script>
 <!--重新加载js结束-->
     
 </body>
